@@ -48,3 +48,17 @@ regressor.fit(X_train_opt, Y_train_opt)
 
 #predicting optimal results 
 Y_pred_opt = regressor.predict(X_test_opt)
+
+#Printing predicted optimal results
+max=0
+for i in range(len(Y_pred_opt_list)):
+  if Y_pred_opt_list[i] > max:
+    max = Y_pred_opt_list[i]
+
+datalist = list(dataset)
+print("for {} quality of wine follow below proportion of ingredents:".format(int(max)))
+for i in range(0,11):
+  if i%2!=0 or i==10 or i==0:
+      print(datalist[i] , end=" ")
+
+print(X_opt[i,:]) #optimal list of scales of ingredents
