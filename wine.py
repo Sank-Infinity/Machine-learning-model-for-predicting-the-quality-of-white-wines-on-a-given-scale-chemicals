@@ -46,20 +46,5 @@ X_train_opt , X_test_opt, Y_train_opt, Y_test_opt = train_test_split(X_opt, Y, t
 #Initialising regressor for optimal dataset
 regressor.fit(X_train_opt, Y_train_opt)
 
-#predicting results 
+#predicting optimal results 
 Y_pred_opt = regressor.predict(X_test_opt)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
