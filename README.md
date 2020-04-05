@@ -12,16 +12,27 @@
 - In the dataset total 12 variables out of which 11 are independent variables and last one is dependent variable.
 
 1.Fixed acidity.
+
 2.Volatile acidity.
+
 3.Citric acid.
+
 4.Residual sugar.
+
 5.Chlorides.
+
 6.Free sulfur dioxide.
+
 7.Total sulfur dioxide.
+
 8.Density.
+
 9.pH.
+
 10.Sulphates.
+
 11.Alcohol.
+
 12.Quality (score between 0 and 10).
 
 # Overview of the process
